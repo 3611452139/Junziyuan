@@ -1,0 +1,36 @@
+# PHP
+*.log
+*.tmp
+
+# Database
+data/app_data.db
+data/app_data.db-journal
+data/app_data.db-wal
+
+# User data (keep in repo as templates, ignore runtime data)
+data/blacklist.json
+data/cache/*
+data/icons/*
+data/banners/*
+data/login_fails.json
+data/login_logs.json
+data/logs.json
+data/rate_limits.json
+data/unblock_requests.json
+data/visitors.json
+data/messages.json
+data/urges.json
+
+# Keep template config files
+!data/resources.json
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
